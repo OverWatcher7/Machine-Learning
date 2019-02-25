@@ -38,7 +38,7 @@ person_rating = get_person_rating(data)
 # 4、计算我与每一个人的距离
 distance = {}
 for i in range(1, 4):
-distance[i] = get_distance(person_rating, i)
+    distance[i] = get_distance(person_rating, i)
     print(distance)
     
 min_index = 0
